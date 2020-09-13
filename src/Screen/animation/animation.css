@@ -1,0 +1,21 @@
+.images img {
+  height: 200px;
+  overflow: hidden !important;
+}
+.bgWrapper {
+  overflow-x: hidden !important;
+ background-image: url("https://64.media.tumblr.com/80550df3a1e8b31bd426ac2642c48fb4/tumblr_osv2thPcQx1sgtytdo1_1280.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  bottom: 5%;
+  
+}
